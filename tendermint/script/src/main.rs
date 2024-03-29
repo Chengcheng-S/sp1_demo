@@ -1,5 +1,5 @@
 use reqwest::Client;
-use sp1_core::{utils, SP1Prover, SP1Stdin, SP1Verifier};
+use sp1_sdk::{utils, SP1Prover, SP1Stdin, SP1Verifier};
 pub mod util;
 use util::{fetch_latest_commit, fetch_light_block};
 

@@ -1,15 +1,14 @@
-//! A simple script to generate and verify the proof of a given program.
+use sp1_sdk::{utils ,SP1Prover, SP1Stdin, SP1Verifier};
 
-use sp1_core::{SP1Prover, SP1Stdin, SP1Verifier};
-
-const ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-zkvm-elf");
+const FIBO_ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-zkvm-elf");
 
 fn main() {
+    utils::setup_tracer();
     // Generate proof.
     let mut stdin = SP1Stdin::new();
     let n = 186u32;
     stdin.write(&n);
-    let mut proof = SP1Prover::prove(ELF, stdin).expect("proving failed");
+    let mut proof = SP1Prover::prove(FIBO_ELF, stdin).expect("proving failed");
 
     // Read output.
     let a = proof.stdout.read::<u128>();
@@ -18,7 +17,7 @@ fn main() {
     println!("b: {}", b);
 
     // Verify proof.
-    SP1Verifier::verify(ELF, &proof).expect("verification failed");
+    SP1Verifier::verify(FIBO_ELF, &proof).expect("verification failed");
 
     // Save proof.
     proof
