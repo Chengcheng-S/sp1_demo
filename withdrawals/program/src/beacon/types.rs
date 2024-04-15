@@ -1,14 +1,15 @@
+use crate::DeserializeError;
 use serde;
 use serde_with::{serde_as,DisplayFromStr};
 use ssz_rs::prelude::{Deserialize,Node,SimpleSerialize,Sized,Vector};
 
-pub type Btyes32 = Node;
+pub type Bytes32 = Node;
 pub type BLSPubKey = Vector<u8,48>;
 pub type ExecutionAddress = Vector<u8,20>;
 
-#[derive(PartialEq,Eq,Clone,Debug,SimpleSerialize)]
+#[derive(PartialEq,Eq,Clone,Debug,SimpleSerialize,Default)]
 pub struct Validator{
-    pub pubkey: BLSPubkey,
+    pub pubkey: BLSPubKey,
     pub withdrawal_credentials: Bytes32,
     pub effective_balance: u64,
     pub slashed: bool,

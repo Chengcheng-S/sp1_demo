@@ -1,22 +1,19 @@
-use sp1_sdk::{utils,SP1Prover, SP1Stdin, SP1Verifier};
+use sp1_sdk::{utils, SP1Stdin, ProverClient};
 
 const WITHDRAWLS_ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-zkvm-elf");
 
 fn main() {
     // Generate proof.
-    let mut stdin = SP1Stdin::new();
-    let n = 186u32;
-    stdin.write(&n);
-    let mut proof = SP1Prover::prove(ELF, stdin).expect("proving failed");
+    utils::setup_logger();
 
-    // Read output.
-    let a = proof.stdout.read::<u128>();
-    let b = proof.stdout.read::<u128>();
-    println!("a: {}", a);
-    println!("b: {}", b);
+    let mut stdin = SP1Stdin::new();
+    let client = ProverClient::new();
+
+    let mut proof = SP1Prover::prove(WITHDRAWLS_ELF, stdin).expect("proving failed");
+
 
     // Verify proof.
-    SP1Verifier::verify(ELF, &proof).expect("verification failed");
+    SP1Verifier::verify(WITHDRAWLS_ELF, &proof).expect("verification failed");
 
     // Save proof.
     proof

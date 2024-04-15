@@ -1,13 +1,13 @@
-use alloy_primitive::u256;
+use alloy_primitives::U256;
 use sha2::{Digest, Sha256};
 use ssz_rs::prelude::Node;
 
 // Verify ssz proof
-pub fn is_vaild_merkel_big_branch<'a>(
+pub fn is_vaild_merkle_big_branch<'a>(
     leaf : &Node,
     mut branch : impl Iterator<Item = &'a Node>,
     depth : usize,
-    index : u256,
+    index : U256,
     root : &Node,
 )->bool{
     let mut value: [u8;32] = leaf.as_ref().try_into().unwrap();
@@ -25,17 +25,18 @@ pub fn is_vaild_merkel_big_branch<'a>(
             hasher.update(value.as_ref());
             hasher.update(next_node.as_ref());
         }
+        value = hasher.finalize_reset().into();
     }
     let root:[u8;32] = root.as_ref().try_into().unwrap();
     root == value 
 }
 
-pub fn branch_form_bytes(s : &[u8;32])-> Vec<Node>{
+pub fn branch_from_bytes(s : &[[u8;32]])-> Vec<Node>{
     s.iter()
-    .map(|hex| node_from_bytes(*hex))
+    .map(|hex|node_from_bytes(*hex))
     .collect::<Vec<Node>>()
 }
 
 pub fn node_from_bytes(s: [u8;32])->Node{
-    Node.try_from(&s[..]).unwrap()
+    Node::try_from(&s[..]).unwrap()
 }

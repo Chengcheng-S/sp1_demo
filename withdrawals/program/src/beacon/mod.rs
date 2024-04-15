@@ -1,4 +1,4 @@
 pub mod hints;
-pub mod proves;
+pub mod prove;
 pub mod types;
 pub mod utils;
