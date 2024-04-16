@@ -1,20 +1,25 @@
-use sp1_sdk::{utils, SP1Prover, SP1Stdin, SP1Verifier};
+use sp1_sdk::{utils, ProverClient, SP1Stdin};
 
 const ED25519_ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-zkvm-elf");
 
 fn main() {
-    // Generate proof.
-    utils::setup_logger();
+    // generate proof
+    utils::setup_tracer();
     let stdin = SP1Stdin::new();
-    let proof = SP1Prover::prove(ED25519_ELF, stdin).expect("proving failed");
+    let client = ProverClient::new();
+    let proof = client
+        .prove(ED25519_ELF, stdin)
+        .expect("failed to generate proof");
 
-    // Verify proof.
-    SP1Verifier::verify(ED25519_ELF, &proof).expect("verification failed");
+    // verify proof
+    client
+        .verify(ED25519_ELF, &proof)
+        .expect("failed to verify proof");
 
-    // Save proof.
+    // save proof
     proof
-        .save("proof-with-io.json")
+        .save("proof-with-pis.json")
         .expect("saving proof failed");
 
-    println!("succesfully generated and verified proof for the program!")
+    println!("successfully generated and verified proof for the program!")
 }
