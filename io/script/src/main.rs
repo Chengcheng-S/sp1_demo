@@ -1,27 +1,28 @@
-use sp1_sdk::{utils,SP1Prover, SP1Stdin, SP1Verifier};
-use serde::{Deserialize,Serialize};
+use serde::{Deserialize, Serialize};
+use sp1_sdk::{utils, ProverClient, SP1Stdin};
 
-const IO_ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-zkvm-elf");
+/// The ELF we want to execute inside the zkVM.
+const JSON_ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-zkvm-elf");
 
-
-#[derive(Debug,PartialEq,Deserialize,Serialize)]
-pub struct MyPointUnaligned{
-    pub x : usize,
-    pub y : usize,
-    pub b : bool,
+#[derive(Serialize, Deserialize, Debug, PartialEq)]
+struct MyPointUnaligned {
+    pub x: usize,
+    pub y: usize,
+    pub b: bool,
 }
 
-
 fn main() {
+    // Setup a tracer for logging.
     utils::setup_tracer();
-    // Generate proof.
+
+    // Create an input stream.
     let mut stdin = SP1Stdin::new();
-    let p = MyPointUnaligned{
+    let p = MyPointUnaligned {
         x: 1,
         y: 2,
         b: true,
     };
-    let q = MyPointUnaligned{
+    let q = MyPointUnaligned {
         x: 3,
         y: 4,
         b: false,
@@ -29,20 +30,21 @@ fn main() {
     stdin.write(&p);
     stdin.write(&q);
 
-    let mut proof = SP1Prover::prove(IO_ELF, stdin).expect("proving failed");
+    // Generate the proof for the given program.
+    let client = ProverClient::new();
+    let mut proof = client.prove(JSON_ELF, stdin).unwrap();
 
-    // Read output.
-    let r = proof.stdout.read::<MyPointUnaligned>();
-    
+    // Read the output.
+    let r = proof.public_values.read::<MyPointUnaligned>();
     println!("r: {:?}", r);
-    
-    // Verify proof.
-    SP1Verifier::verify(IO_ELF, &proof).expect("verification failed");
 
-    // Save proof.
+    // Verify proof.
+    client.verify(JSON_ELF, &proof).expect("verification failed");
+
+    // Save the proof.
     proof
-        .save("proof-with-io.json")
+        .save("proof-with-pis.json")
         .expect("saving proof failed");
 
-    println!("succesfully generated and verified proof for the program!")
+    println!("successfully generated and verified proof for the program!")
 }

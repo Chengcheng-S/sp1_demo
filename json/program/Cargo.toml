@@ -6,6 +6,6 @@ edition = "2021"
 
 [dependencies]
 sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git" }
-serde = "1.0.197"
 serde_json = "1.0.113"
-lib = {path = "../lib"}
+serde = "1.0.197"
+lib = { path = "../lib" }
