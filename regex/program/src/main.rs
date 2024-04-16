@@ -1,6 +1,5 @@
 #![no_main]
 sp1_zkvm::entrypoint!(main);
-use core::panic;
 
 use regex::Regex;
 
@@ -9,16 +8,17 @@ pub fn main() {
     let pattern = sp1_zkvm::io::read::<String>();
     let target_string = sp1_zkvm::io::read::<String>();
 
-    // try to compile the regex pattern, if is fails write false as output and return
-    let regex = match Regex::new(pattern.as_str()) {
+    // Try to compile the regex pattern. If it fails, write `false` as output and return.
+    let regex = match Regex::new(&pattern) {
         Ok(regex) => regex,
         Err(_) => {
-           panic!("Invalid regex pattern");
+            panic!("Invalid regex pattern");
         }
     };
-    
+
+    // Perform the regex search on the target string.
     let result = regex.is_match(&target_string);
 
-    sp1_zkvm::io::write(&result);
-
+    // Write the result (true or false) to the output.
+    sp1_zkvm::io::commit(&result);
 }
