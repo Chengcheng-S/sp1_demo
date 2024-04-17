@@ -23,38 +23,37 @@ pub struct SignedHeaderWrapper {
 
 #[derive(Debug, Deserialize)]
 pub struct ValidatorSetResponse {
-    pub result: BlockVaildatorset,
+    pub result: BlockValidatorSet,
 }
 
 #[derive(Debug, Deserialize)]
-pub struct BlockVaildatorset {
+pub struct BlockValidatorSet {
     pub block_height: String,
     pub validators: Vec<Info>,
     pub count: String,
     pub total: String,
 }
 
-pub fn sort_signatures_by_validator_power_desc(
+pub fn sort_signatures_by_validators_power_desc(
     signed_header: &mut SignedHeader,
-    validator_set: &ValidatorSet,
+    validators_set: &ValidatorSet,
 ) {
-    let validator_power: HashMap<_, _> = validator_set
+    let validator_powers: HashMap<_, _> = validators_set
         .validators()
         .iter()
         .map(|v| (v.address, v.power()))
         .collect();
 
     signed_header.commit.signatures.sort_by(|a, b| {
-        let a_power = a
+        let power_a = a
             .validator_address()
-            .and_then(|addr| validator_power.get(&addr))
+            .and_then(|addr| validator_powers.get(&addr))
             .unwrap_or(&0);
-
-        let b_power = b
+        let power_b = b
             .validator_address()
-            .and_then(|addr| validator_power.get(&addr))
+            .and_then(|addr| validator_powers.get(&addr))
             .unwrap_or(&0);
-        b_power.cmp(a_power)
+        power_b.cmp(power_a)
     });
 }
 
@@ -89,7 +88,7 @@ pub async fn fetch_commit(
     Ok(response)
 }
 
-pub async fn fetch_vaildators(
+pub async fn fetch_validators(
     client: &Client,
     url: &str,
     block_height: u64,
@@ -109,7 +108,7 @@ pub async fn fetch_vaildators(
             .await?
             .json::<ValidatorSetResponse>()
             .await?;
-        let block_validator_set: BlockVaildatorset = response.result;
+        let block_validator_set: BlockValidatorSet = response.result;
         validators.extend(block_validator_set.validators);
         collected_validators += block_validator_set.count.parse::<i32>().unwrap();
 
@@ -118,37 +117,35 @@ pub async fn fetch_vaildators(
         }
         page_index += 1;
     }
+
     Ok(validators)
 }
 
 pub async fn fetch_light_block(
+    block_height: u64,
     peer_id: [u8; 20],
     base_url: &str,
-    block_height: u64,
 ) -> Result<LightBlock, Box<dyn Error>> {
     let client = Client::new();
 
     let commit_response =
         fetch_commit(&client, &format!("{}/commit", base_url), block_height).await?;
-
     let mut signed_header = commit_response.result.signed_header;
 
     let validator_response =
-        fetch_vaildators(&client, &format!("{}/validators", base_url), block_height).await?;
+        fetch_validators(&client, &format!("{}/validators", base_url), block_height).await?;
 
     let validators = Set::new(validator_response, None);
 
-    let next_validator_reponse = fetch_vaildators(
+    let next_validator_response = fetch_validators(
         &client,
         &format!("{}/validators", base_url),
         block_height + 1,
     )
     .await?;
+    let next_validators = Set::new(next_validator_response, None);
 
-    let next_validators = Set::new(next_validator_reponse, None);
-
-    sort_signatures_by_validator_power_desc(&mut signed_header, &validators);
-
+    sort_signatures_by_validators_power_desc(&mut signed_header, &validators);
     Ok(LightBlock::new(
         signed_header,
         validators,
