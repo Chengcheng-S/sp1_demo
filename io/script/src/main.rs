@@ -1,6 +1,10 @@
 use serde::{Deserialize, Serialize};
 use sp1_sdk::{utils, ProverClient, SP1Stdin};
 
+// use serde_json::Result;
+// use std::fs::File;
+// use std::io::BufReader;
+
 /// The ELF we want to execute inside the zkVM.
 const JSON_ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-zkvm-elf");
 
@@ -32,19 +36,28 @@ fn main() {
 
     // Generate the proof for the given program.
     let client = ProverClient::new();
-    let mut proof = client.prove(JSON_ELF, stdin).unwrap();
+    let (pk,vk) = client.setup(JSON_ELF);
+
+    let mut proof = client.prove(&pk, stdin).unwrap();
 
     // Read the output.
     let r = proof.public_values.read::<MyPointUnaligned>();
     println!("r: {:?}", r);
 
     // Verify proof.
-    client.verify(JSON_ELF, &proof).expect("verification failed");
+    client.verify(&proof,&vk).expect("verification failed");
+    /* 
+    let file = File::open("proof-with-pis.json").expect("read failed");
+    let reader = BufReader::new(file);
+    let proof: SP1ProofWithIO<BabyBearPoseidon2> = serde_json::from_reader(reader).expect("deserialization failed");
+    println!("{:?}",proof.proof);
+    */
 
     // Save the proof.
     proof
         .save("proof-with-pis.json")
         .expect("saving proof failed");
 
+    
     println!("successfully generated and verified proof for the program!")
 }
