@@ -1,23 +1,19 @@
-use sp1_sdk::{utils ,SP1Prover, SP1Stdin, SP1Verifier};
+use sp1_sdk::{utils, ProverClient, SP1Stdin};
 
 const FIBO_ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-zkvm-elf");
 
 fn main() {
-    utils::setup_tracer();
+    utils::setup_logger();
     // Generate proof.
     let mut stdin = SP1Stdin::new();
     let n = 186u32;
     stdin.write(&n);
-    let mut proof = SP1Prover::prove(FIBO_ELF, stdin).expect("proving failed");
-
-    // Read output.
-    let a = proof.stdout.read::<u128>();
-    let b = proof.stdout.read::<u128>();
-    println!("a: {}", a);
-    println!("b: {}", b);
+    let client = ProverClient::new();
+    let (pk,vk) = client.setup(FIBO_ELF);
+    let  proof = client.prove(&pk,stdin).expect("proving failed");
 
     // Verify proof.
-    SP1Verifier::verify(FIBO_ELF, &proof).expect("verification failed");
+    client.verify( &proof,&vk).expect("verification failed");
 
     // Save proof.
     proof

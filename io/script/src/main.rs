@@ -17,7 +17,7 @@ struct MyPointUnaligned {
 
 fn main() {
     // Setup a tracer for logging.
-    utils::setup_tracer();
+    utils::setup_logger();
 
     // Create an input stream.
     let mut stdin = SP1Stdin::new();

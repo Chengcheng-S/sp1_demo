@@ -4,16 +4,17 @@ const ED25519_ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-
 
 fn main() {
     // generate proof
-    utils::setup_tracer();
+    utils::setup_logger();
     let stdin = SP1Stdin::new();
     let client = ProverClient::new();
+    let (pk,vk) = client.setup(ED25519_ELF);
     let proof = client
-        .prove(ED25519_ELF, stdin)
+        .prove(&pk,stdin)
         .expect("failed to generate proof");
 
     // verify proof
     client
-        .verify(ED25519_ELF, &proof)
+        .verify(&proof,&vk)
         .expect("failed to verify proof");
 
     // save proof

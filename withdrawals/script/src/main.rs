@@ -8,12 +8,12 @@ fn main() {
 
     let mut stdin = SP1Stdin::new();
     let client = ProverClient::new();
-
-    let mut proof = SP1Prover::prove(WITHDRAWLS_ELF, stdin).expect("proving failed");
+    let (pk,vk) = client.setup(WITHDRAWLS_ELF);
+    let proof = SP1Prover::prove(&pk, stdin).expect("proving failed");
 
 
     // Verify proof.
-    SP1Verifier::verify(WITHDRAWLS_ELF, &proof).expect("verification failed");
+    SP1Verifier::verify(&proof,&vk).expect("verification failed");
 
     // Save proof.
     proof
