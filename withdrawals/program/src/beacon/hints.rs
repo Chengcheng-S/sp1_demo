@@ -1,19 +1,15 @@
 use crate::beacon::types::*;
-use crate::beacon::utils::{branch_from_bytes , node_from_bytes};
+use crate::beacon::utils::{branch_from_bytes, node_from_bytes};
 use hex_literal::hex;
 use ssz_rs::prelude::*;
 use std::hint::black_box;
 
-
-// return the beacon block's withdrawal root and a corresponding SSZ merkle proof
-pub fn withdrawals_root_proof(
-    _block_root: Node,
-)->(Node,Vec<Node>){
-    let leaf =  node_from_bytes(hex!(
+/// Returns the beaacon block's withdrawals root and a corresponding SSZ merkle proof.
+pub fn withdrawals_root_proof(_block_root: Node) -> (Node, Vec<Node>) {
+    let leaf = node_from_bytes(hex!(
         "5cc52fb136d9ff526f071f8f87d44c3f35ff5dc973371a2c3613d8ecc53bfcd4"
     ));
-
-    let branch  = branch_from_bytes(
+    let branch = branch_from_bytes(
         [
             hex!("0000000000000000000000000000000000000000000000000000000000000000"),
             hex!("8d72069921728c6688441d7cb5dab79812429013ac09311d5456aa61b770084d"),
@@ -26,15 +22,15 @@ pub fn withdrawals_root_proof(
             hex!("0000000000000000000000000000000000000000000000000000000000000000"),
             hex!("f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b"),
             hex!("3ca168014d8da18c223f9f3cbbad902cd2ffabaeef25d3ff32b0d51984231409"),
-        ].as_slice(),
+        ]
+        .as_slice(),
     );
-    (leaf,branch)
+
+    (leaf, branch)
 }
 
-// given a block root and index [0,16)],returns the withdrawl and a corresponding SSZ proof
-pub fn withdrawal_proof(
-    _block_root : Node , _index:u32,
-)->(Withdrawal , Vec<Node>){
+/// Given a block root and index [0, 16), returns the withdrawal and a corresponding SSZ proof.
+pub fn withdrawal_proof(_block_root: Node, _index: u32) -> (Withdrawal, Vec<Node>) {
     let withdrawal = Withdrawal {
         index: 26081110,
         validator_index: 795049,
@@ -44,6 +40,7 @@ pub fn withdrawal_proof(
         .unwrap(),
         amount: 17122745,
     };
+
     let branch = branch_from_bytes(black_box(
         [
             hex!("cf4999288497e7a3ee17c8251a26ac3ae91bc6b7ac5a2ad42df15807d4aaa99d"),
@@ -55,13 +52,11 @@ pub fn withdrawal_proof(
         .as_slice(),
     ));
 
-    (withdrawal,branch)
+    (withdrawal, branch)
 }
 
-// return the corresponding beacon block header
-pub fn beacon_header_proof(
-    _block_root: Node
-)-> BeaconBlockHeader{
+/// Returns the corresponding beacon block header.
+pub fn beacon_header_proof(_block_root: Node) -> BeaconBlockHeader {
     BeaconBlockHeader {
         slot: 8225000,
         proposer_index: 980811,
@@ -77,10 +72,8 @@ pub fn beacon_header_proof(
     }
 }
 
-// returns the beacon block's validator root and a corresponding SSZ merkle proof
-pub fn validators_root_proof(
-    _block_root : Node
-)-> (Node,Vec<Node>){
+/// Returns the beacon block's validators root and a corresponding SSZ merkle proof.
+pub fn validators_root_proof(_block_root: Node) -> (Node, Vec<Node>) {
     let leaf = Node::try_from(
         hex!("8ada0d639d94919c8a8aa62f13bbf5f0a0bf3e4340aa01679e533a4f68a54dc0").as_slice(),
     )
@@ -213,6 +206,7 @@ pub fn historical_far_slot_proof(_block_root: Node, _target_slot: u64) -> (Node,
     );
     (leaf, branch)
 }
+
 /// Given a block root and target slot, return the target block root and a corresponding SSZ merkle
 /// proof from historical summary root to target block root. The target slot must be at most
 /// (source_slot - 8192).
@@ -245,14 +239,14 @@ pub fn historical_far_slot_blockroot_proof(
     (leaf, branch)
 }
 
-// returns withdrawals slots , withdrawl indexs , and validator indexs that match the given
-// withdrawal address
-pub fn withdrawal_range(
-    _block_root:Node,
-    _start_root:u64,
+/// Returns withdrawal slots, withdrawal indexes, and validator indexes that match the given
+/// withdrawal address.
+pub fn withdrawals_range(
+    _block_root: Node,
+    _start_slot: u64,
     _end_slot: u64,
     _withdrawal_address: &ExecutionAddress,
-)->(Vec<(u64, Vec<u32>)>, Vec<u64>){
+) -> (Vec<(u64, Vec<u32>)>, Vec<u64>) {
     (
         vec![
             (

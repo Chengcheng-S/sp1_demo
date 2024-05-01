@@ -1,48 +1,44 @@
 use crate::beacon::hints;
 use crate::beacon::types::*;
-use crate::beacon::utils::is_vaild_merkle_big_branch;
+use crate::beacon::utils::is_valid_merkle_big_branch;
 use ssz_rs::prelude::*;
 use std::hint::black_box;
 use std::str::FromStr;
 
-pub fn block_header(block_root:Node)->BeaconBlockHeader{
+pub fn block_header(block_root: Node) -> BeaconBlockHeader {
     black_box(hints::beacon_header_proof(block_root))
 }
 
-pub fn withdrawals_root(block_root:Node)->Node{
-    let (leaf,branch) = black_box(hints::withdrawals_root_proof(block_root));
+pub fn withdrawals_root(block_root: Node) -> Node {
+    let (leaf, branch) = black_box(hints::withdrawals_root_proof(block_root));
     let depth = 11;
-    let index  = alloy_primitives::U256::from(3230);
+    let index = alloy_primitives::U256::from(3230);
 
-    let valid = black_box(is_vaild_merkle_big_branch(
-        &leaf, 
-        branch.iter(), 
+    let valid = black_box(is_valid_merkle_big_branch(
+        &leaf,
+        branch.iter(),
         depth,
         index,
         &block_root,
     ));
-    println!("withdrawals root valid:{}",valid);
+    println!("withdrawals root valid: {}", valid);
     leaf
 }
 
-pub fn withdrawal(
-    block_root:Node,
-    withdrawals_root:Node,
-    index:u32,
-)->Withdrawal{
-    let (mut withdrawal, branch) = black_box(hints::withdrawal_proof(block_root,index));
+pub fn withdrawal(block_root: Node, withdrawals_root: Node, index: u32) -> Withdrawal {
+    let (mut withdrawal, branch) = black_box(hints::withdrawal_proof(block_root, index));
     let leaf = withdrawal.hash_tree_root().unwrap();
     let depth = 5;
-    let index  = alloy_primitives::U256::from(32);
+    let index = alloy_primitives::U256::from(32);
 
-    let valid = black_box(is_vaild_merkle_big_branch(
-        &leaf, 
-        branch.iter(), 
+    let valid = black_box(is_valid_merkle_big_branch(
+        &leaf,
+        branch.iter(),
         depth,
         index,
         &withdrawals_root,
     ));
-    println!("withdrawal valid:{}",valid);
+    println!("withdrawal valid: {}", valid);
     withdrawal
 }
 
@@ -50,7 +46,7 @@ pub fn validators_root(block_root: Node) -> Node {
     let (leaf, branch) = black_box(hints::validators_root_proof(block_root));
     let depth = 8;
     let index = alloy_primitives::U256::from(363);
-    let valid = black_box(is_vaild_merkle_big_branch(
+    let valid = black_box(is_valid_merkle_big_branch(
         &leaf,
         branch.iter(),
         depth,
@@ -69,7 +65,7 @@ pub fn validator(block_root: Node, validators_root: Node, validator_index: u64) 
     let index = alloy_primitives::U256::from_str("2199023255552")
         .unwrap()
         .wrapping_add(alloy_primitives::U256::from(validator_index));
-    let valid = black_box(is_vaild_merkle_big_branch(
+    let valid = black_box(is_valid_merkle_big_branch(
         &leaf,
         branch.iter(),
         depth,
@@ -88,7 +84,7 @@ pub fn historical_far_slot(block_root: Node, target_slot: u64) -> Node {
         .unwrap()
         .wrapping_add(alloy_primitives::U256::from(array_index));
 
-    let valid = black_box(is_vaild_merkle_big_branch(
+    let valid = black_box(is_valid_merkle_big_branch(
         &leaf,
         branch.iter(),
         depth,
@@ -108,7 +104,7 @@ fn historical_far_slot_blockroot(block_root: Node, summary_root: Node, target_sl
     let array_index = (target_slot) % 8192;
     let index = alloy_primitives::U256::from(16384 + array_index);
 
-    let valid = black_box(is_vaild_merkle_big_branch(
+    let valid = black_box(is_valid_merkle_big_branch(
         &leaf,
         branch.iter(),
         depth,

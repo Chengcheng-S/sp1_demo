@@ -1,24 +1,25 @@
-use sp1_sdk::{utils, SP1Stdin, ProverClient};
+//! A simple script to generate and verify the proof of a given program.
 
-const WITHDRAWLS_ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-zkvm-elf");
+use sp1_sdk::{ProverClient, SP1Stdin,utils};
+
+const WITHDRAWALS_ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-zkvm-elf");
 
 fn main() {
-    // Generate proof.
     utils::setup_logger();
 
-    let mut stdin = SP1Stdin::new();
+    let stdin = SP1Stdin::new();
     let client = ProverClient::new();
-    let (pk,vk) = client.setup(WITHDRAWLS_ELF);
-    let proof = SP1Prover::prove(&pk, stdin).expect("proving failed");
+    let (pk,vk) = client.setup(WITHDRAWALS_ELF);
 
+    let proof = client.prove(&pk, stdin).expect("proving failed");
 
     // Verify proof.
-    SP1Verifier::verify(&proof,&vk).expect("verification failed");
+    client.verify(&proof,&vk).expect("verification failed");
 
     // Save proof.
     proof
         .save("proof-with-io.json")
         .expect("saving proof failed");
 
-    println!("succesfully generated and verified proof for the program!")
+    println!("successfully generated and verified proof for the program!")
 }

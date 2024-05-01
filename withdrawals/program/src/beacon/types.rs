@@ -1,15 +1,15 @@
 use crate::DeserializeError;
 use serde;
-use serde_with::{serde_as,DisplayFromStr};
-use ssz_rs::prelude::{Deserialize,Node,SimpleSerialize,Sized,Vector};
+use serde_with::{serde_as, DisplayFromStr};
+use ssz_rs::prelude::{Deserialize, Node, SimpleSerialize, Sized, Vector};
 
 pub type Bytes32 = Node;
-pub type BLSPubKey = Vector<u8,48>;
-pub type ExecutionAddress = Vector<u8,20>;
+pub type BLSPubkey = Vector<u8, 48>;
+pub type ExecutionAddress = Vector<u8, 20>;
 
-#[derive(PartialEq,Eq,Clone,Debug,SimpleSerialize,Default)]
-pub struct Validator{
-    pub pubkey: BLSPubKey,
+#[derive(PartialEq, Eq, Debug, Default, Clone, SimpleSerialize)]
+pub struct Validator {
+    pub pubkey: BLSPubkey,
     pub withdrawal_credentials: Bytes32,
     pub effective_balance: u64,
     pub slashed: bool,
@@ -18,7 +18,6 @@ pub struct Validator{
     pub exit_epoch: u64,
     pub withdrawable_epoch: u64,
 }
-
 
 #[serde_as]
 #[derive(
