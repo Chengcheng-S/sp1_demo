@@ -38,14 +38,14 @@ fn main() {
     let client = ProverClient::new();
     let (pk,vk) = client.setup(JSON_ELF);
 
-    let mut proof = client.prove(&pk, stdin).unwrap();
+    let mut proof = client.prove_plonk(&pk, stdin).unwrap();
 
     // Read the output.
     let r = proof.public_values.read::<MyPointUnaligned>();
     println!("r: {:?}", r);
 
     // Verify proof.
-    client.verify(&proof,&vk).expect("verification failed");
+    client.verify_plonk(&proof,&vk).expect("verification failed");
     /* 
     let file = File::open("proof-with-pis.json").expect("read failed");
     let reader = BufReader::new(file);

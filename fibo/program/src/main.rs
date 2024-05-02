@@ -6,15 +6,21 @@ pub fn main() {
     // resulting in output that doesn't match fibonacci sequence.
     // However, the resulting proof will still be valid!
     let n = sp1_zkvm::io::read::<u32>();
-    let mut a: u128 = 0;
-    let mut b: u128 = 1;
-    let mut sum: u128;
-    for _ in 1..n {
-        sum = a + b;
-        a = b;
-        b = sum;
-    }
 
-    sp1_zkvm::io::write(&a);
-    sp1_zkvm::io::write(&b);
+    // Write n to public input
+    sp1_zkvm::io::commit(&n);
+
+    // Compute the n'th fibonacci number,
+
+    let mut nums = vec![1, 1];
+
+    for _ in 0..n {
+        let mut c = nums[nums.len() - 1] + nums[nums.len() - 2];
+        c %= 7919;
+        nums.push(c);
+    }
+    // Write the output of the program.
+
+    sp1_zkvm::io::commit(&nums[nums.len() - 2]);
+    sp1_zkvm::io::commit(&nums[nums.len() - 1]);
 }
