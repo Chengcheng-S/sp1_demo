@@ -17,8 +17,10 @@ fn main() {
 
     let client = ProverClient::new();
     let (pk,vk) = client.setup(CHESS_ELF);
-    let proof = client.prove(&pk, stdin).unwrap();
+    let mut proof = client.prove(&pk, stdin).unwrap();
 
+    let is_valid_move = proof.public_values.read::<bool>();
+    assert!(is_valid_move);
 
     // Verify proof.
     client.verify(&proof,&vk).expect("verification failed");
