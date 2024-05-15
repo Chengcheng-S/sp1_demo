@@ -56,8 +56,8 @@ taplocheck:
 
 .PHONY: fmt ## cargo fmt all && taplo fmt all
 fmt:
-	cargo fmt --all && taplo fmt
-
+	cd ./script && cargo fmt --all && taplo fmt
+	cd ./program && cargo fmt --all && taplo fmt
 
 .POHY : execute  ## prove the proof 
 prove:

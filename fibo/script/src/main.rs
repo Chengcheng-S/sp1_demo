@@ -5,17 +5,17 @@ const FIBO_ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-zkv
 fn main() {
     utils::setup_logger();
     // Generate proof.
-    
+
     let n = 500u32;
     let expected_a = 1926u32;
     let expected_b: u32 = 3194u32;
-    
-    let  mut stdin = SP1Stdin::new();
+
+    let mut stdin = SP1Stdin::new();
     stdin.write(&n);
 
     let client = ProverClient::new();
-    let (pk,vk) = client.setup(FIBO_ELF);
-    let mut proof = client.prove(&pk,stdin).expect("proving failed");
+    let (pk, vk) = client.setup(FIBO_ELF);
+    let mut proof = client.prove(&pk, stdin).expect("proving failed");
     println!("generated proof");
 
     // Read and verify the output.
@@ -29,7 +29,7 @@ fn main() {
     println!("b: {}", b);
 
     // Verify proof.
-    client.verify( &proof,&vk).expect("verification failed");
+    client.verify(&proof, &vk).expect("verification failed");
 
     // Save proof.
     proof
