@@ -59,14 +59,14 @@ fmt:
 	cd ./script && cargo fmt --all && taplo fmt
 	cd ./program && cargo fmt --all && taplo fmt
 
-.POHY : execute  ## prove the proof 
-prove:
-	cd ./script  RUST_LOG=info cargo run --package fibo-script --bin execute --release
+.POHY : execute  ## execute the proof 
+execute:
+	cd ./script && RUST_LOG=info cargo run --package fibo-script --bin execute --release
 
-.POHY : compressed  ## prove the proof 
-prove:
-	cd ./script  RUST_LOG=info cargo run --package fibo-script --bin compressed --release
+.POHY : compressed  ## compressed ßthe proof 
+compressed:
+	cd ./script && RUST_LOG=info cargo run --package fibo-script --bin compressed --release
 
-.POHY : groth16  ## prove the proof 
-prove:
-	cd ./script  RUST_LOG=info cargo run --package fibo-script --bin groth16 --release
+.POHY : groth16  ## generate groth16 proof && verify
+groth16:
+	cd ./script && RUST_LOG=info cargo run --package fibo-script --bin groth16 --release
