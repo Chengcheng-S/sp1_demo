@@ -22,3 +22,8 @@ path = "bin/compressed.rs"
 [[bin]]
 name = "execute"
 path = "bin/execute.rs"
+
+
+[[bin]]
+name = "plonk"
+path = "bin/plonk.rs"

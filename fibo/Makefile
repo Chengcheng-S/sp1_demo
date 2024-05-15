@@ -70,3 +70,7 @@ compressed:
 .POHY : groth16  ## generate groth16 proof && verify
 groth16:
 	cd ./script && RUST_LOG=info cargo run --package fibo-script --bin groth16 --release
+
+.POHY : plonk  ## generate plonk proof && verify
+plonk:
+	cd ./script && RUST_LOG=info cargo run --package fibo-script --bin plonk --release
