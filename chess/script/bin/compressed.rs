@@ -4,6 +4,7 @@ const CHESS_ELF: &[u8] = include_bytes!("../../program/elf/riscv32im-succinct-zk
 
 fn main() {
     utils::setup_logger();
+
     let mut stdin = SP1Stdin::new();
 
     // FEN representation of a chessboard in its initial state
@@ -16,18 +17,14 @@ fn main() {
 
     let client = ProverClient::new();
     let (pk, vk) = client.setup(CHESS_ELF);
-    let mut proof = client.prove(&pk, stdin).unwrap();
+    let mut proof = client.prove_compressed(&pk, stdin).unwrap();
+
+    client.verify_compressed(&proof, &vk).unwrap();
 
     let is_valid_move = proof.public_values.read::<bool>();
     assert!(is_valid_move);
 
-    // Verify proof.
-    client.verify(&proof, &vk).expect("verification failed");
-
-    // Save proof.
-    proof
-        .save("proof-with-io.json")
-        .expect("saving proof failed");
+    println!("generated proof");
 
     println!("successfully generated and verified proof for the program!")
 }
