@@ -16,7 +16,7 @@ fn main() {
     stdin.write(&san);
 
     let client = ProverClient::new();
-    let mut public_values = client.execute(&CHESS_ELF, stdin).unwrap();
+    let mut public_values = client.execute(CHESS_ELF, stdin).unwrap();
 
     let is_valid_move = public_values.read::<bool>();
     assert!(is_valid_move);
