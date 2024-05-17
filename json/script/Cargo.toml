@@ -13,3 +13,19 @@ lib = {path = "../lib"}
 
 [build-dependencies]
 sp1-helper = { git = "https://github.com/succinctlabs/sp1.git" }
+
+[[bin]]
+name ="plonk"
+path = "bin/plonk.rs"
+
+[[bin]]
+name ="execute"
+path = "bin/execute.rs"
+
+[[bin]]
+name ="groth16"
+path = "bin/groth16.rs"
+
+[[bin]]
+name ="compressed"
+path = "bin/compressed.rs"
