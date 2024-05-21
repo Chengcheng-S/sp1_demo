@@ -25,3 +25,7 @@ path = "bin/groth16.rs"
 [[bin]]
 name ="compressed"
 path = "bin/compressed.rs"
+
+[[bin]]
+name="ed25519-verify"
+path ="src/main.rs"

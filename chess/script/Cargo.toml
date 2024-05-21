@@ -27,3 +27,7 @@ path = "bin/plonk.rs"
 [[bin]]
 name  = "groth16"
 path = "bin/groth16.rs"
+
+[[bin]]
+name="chess-verify"
+path ="src/main.rs"

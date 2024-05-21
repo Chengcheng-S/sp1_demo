@@ -5,7 +5,7 @@ name = "fibo-script"
 edition = "2021"
 
 [dependencies]
-itertools = "0.12.1"
+itertools = "0.13.0"
 sp1-sdk = { git = "https://github.com/succinctlabs/sp1.git" }
 sha2 = "0.10.6"
 
@@ -27,3 +27,7 @@ path = "bin/execute.rs"
 [[bin]]
 name = "plonk"
 path = "bin/plonk.rs"
+
+[[bin]]
+name = "fibo-verify"
+path = "src/main.rs"
