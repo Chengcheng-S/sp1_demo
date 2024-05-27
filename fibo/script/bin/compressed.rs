@@ -28,10 +28,13 @@ fn main() {
         .verify_compressed(&proof, &vk)
         .expect("verification failed");
 
-    // Save the proof.
-    proof
-        .save("compressed-proof-with-pis.json")
-        .expect("saving proof failed");
+
+    let proof_for_sp1 = serde_json::to_string(&proof).expect("Unable to serialize data");
+    std::fs::write("proof-compressed.json", proof_for_sp1).expect("Unable to write file");
+    // // Save the proof.
+    // proof
+    //     .save("compressed-proof-with-pis.json")
+    //     .expect("saving proof failed");
 
     println!("successfully generated and verified proof for the program!")
 }
