@@ -1,0 +1,361 @@
+[2m2024-05-29T08:48:58.733264Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m84.5µs [3mtime.idle[0m[2m=[0m375ns
+[2m2024-05-29T08:48:58.733357Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m204µs [3mtime.idle[0m[2m=[0m166ns
+[2m2024-05-29T08:48:58.733411Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.12µs [3mtime.idle[0m[2m=[0m166ns
+[2m2024-05-29T08:48:58.733417Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m7.29µs [3mtime.idle[0m[2m=[0m166ns
+[2m2024-05-29T08:48:58.733511Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m26.3µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:58.733517Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m32.5µs [3mtime.idle[0m[2m=[0m291ns
+[2m2024-05-29T08:48:58.733783Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m77.6µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:58.733790Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m84.9µs [3mtime.idle[0m[2m=[0m208ns
+[2m2024-05-29T08:48:58.737050Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m973µs [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:48:58.737060Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m983µs [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:48:58.740377Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m626µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:58.740387Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m636µs [3mtime.idle[0m[2m=[0m126ns
+[2m2024-05-29T08:48:58.742696Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m418µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:58.742705Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m428µs [3mtime.idle[0m[2m=[0m168ns
+[2m2024-05-29T08:48:58.745561Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m672µs [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:48:58.745569Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m680µs [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:48:58.749473Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m920µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:58.749488Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m936µs [3mtime.idle[0m[2m=[0m124ns
+[2m2024-05-29T08:48:58.753173Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m774µs [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:48:58.753182Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m784µs [3mtime.idle[0m[2m=[0m124ns
+[2m2024-05-29T08:48:58.756770Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m697µs [3mtime.idle[0m[2m=[0m1.33µs
+[2m2024-05-29T08:48:58.756791Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m720µs [3mtime.idle[0m[2m=[0m458ns
+[2m2024-05-29T08:48:58.760831Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m968µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:58.760843Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m980µs [3mtime.idle[0m[2m=[0m251ns
+[2m2024-05-29T08:48:58.766703Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.46ms [3mtime.idle[0m[2m=[0m500ns
+[2m2024-05-29T08:48:58.766722Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m1.48ms [3mtime.idle[0m[2m=[0m875ns
+[2m2024-05-29T08:48:58.775008Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.30ms [3mtime.idle[0m[2m=[0m666ns
+[2m2024-05-29T08:48:58.775046Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m2.34ms [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:48:58.779707Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m111µs [3mtime.idle[0m[2m=[0m333ns
+[2m2024-05-29T08:48:58.779726Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m131µs [3mtime.idle[0m[2m=[0m1.42µs
+[2m2024-05-29T08:48:58.782996Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m949µs [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:48:58.783011Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m965µs [3mtime.idle[0m[2m=[0m292ns
+[2m2024-05-29T08:48:58.784378Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m8.08µs [3mtime.idle[0m[2m=[0m207ns
+[2m2024-05-29T08:48:58.784387Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m16.8µs [3mtime.idle[0m[2m=[0m250ns
+[2m2024-05-29T08:48:58.784412Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m5.67µs [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:48:58.784431Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m25.1µs [3mtime.idle[0m[2m=[0m209ns
+[2m2024-05-29T08:48:58.784515Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m32.8µs [3mtime.idle[0m[2m=[0m126ns
+[2m2024-05-29T08:48:58.784524Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m42.6µs [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:48:58.784581Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m15.8µs [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:48:58.784586Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m21.3µs [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:48:58.784638Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m17.6µs [3mtime.idle[0m[2m=[0m82.0ns
+[2m2024-05-29T08:48:58.784643Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m22.0µs [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:48:58.784683Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m13.5µs [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:48:58.784686Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m17.4µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:58.784716Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.25µs [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:48:58.784720Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m8.50µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:58.784731Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.04µs [3mtime.idle[0m[2m=[0m126ns
+[2m2024-05-29T08:48:58.784736Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m8.62µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:58.784741Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m667ns [3mtime.idle[0m[2m=[0m124ns
+[2m2024-05-29T08:48:58.784749Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m9.38µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:58.784774Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m3.04µs [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:48:58.784778Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m7.96µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:58.784791Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.58µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:58.784794Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m5.17µs [3mtime.idle[0m[2m=[0m124ns
+[2m2024-05-29T08:48:58.784810Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1mconstruct RiscvAir machine[0m: close [3mtime.busy[0m[2m=[0m52.1ms [3mtime.idle[0m[2m=[0m8.88µs
+[2m2024-05-29T08:48:58.788873Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: CPU
+[2m2024-05-29T08:48:58.795250Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Program
+[2m2024-05-29T08:48:58.795848Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: ShaExtend
+[2m2024-05-29T08:48:58.801111Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: ShaCompress
+[2m2024-05-29T08:48:58.815981Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: EdAddAssign
+[2m2024-05-29T08:48:58.880496Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: EdDecompress
+[2m2024-05-29T08:48:58.930785Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Secp256k1Decompress
+[2m2024-05-29T08:48:58.969222Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Secp256k1AddAssign
+[2m2024-05-29T08:48:59.031231Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Secp256k1DoubleAssign
+[2m2024-05-29T08:48:59.103618Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: KeccakPermute
+[2m2024-05-29T08:48:59.207212Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Bn254AddAssign
+[2m2024-05-29T08:48:59.270675Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Bn254DoubleAssign
+[2m2024-05-29T08:48:59.345655Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Bls12381AddAssign
+[2m2024-05-29T08:48:59.451489Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Bls12381DoubleAssign
+[2m2024-05-29T08:48:59.571551Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Uint256MulMod
+[2m2024-05-29T08:48:59.584983Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Bls12381Decompress
+[2m2024-05-29T08:48:59.648717Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: AddSub
+[2m2024-05-29T08:48:59.649802Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Bitwise
+[2m2024-05-29T08:48:59.650519Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: DivRem
+[2m2024-05-29T08:48:59.653838Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Mul
+[2m2024-05-29T08:48:59.655451Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: ShiftRight
+[2m2024-05-29T08:48:59.658056Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: ShiftLeft
+[2m2024-05-29T08:48:59.659573Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Lt
+[2m2024-05-29T08:48:59.660688Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryInit
+[2m2024-05-29T08:48:59.661108Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryFinalize
+[2m2024-05-29T08:48:59.661595Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryProgram
+[2m2024-05-29T08:48:59.662518Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Byte
+[2m2024-05-29T08:48:59.730541Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 915053
+[2m2024-05-29T08:48:59.751191Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m16.3µs [3mtime.idle[0m[2m=[0m583ns
+[2m2024-05-29T08:48:59.751224Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m51.0µs [3mtime.idle[0m[2m=[0m1.00µs
+[2m2024-05-29T08:48:59.751350Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m33.0µs [3mtime.idle[0m[2m=[0m166ns
+[2m2024-05-29T08:48:59.751356Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m39.0µs [3mtime.idle[0m[2m=[0m208ns
+[2m2024-05-29T08:48:59.751389Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m917ns [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:59.751393Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m4.96µs [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:48:59.751696Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m79.1µs [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:48:59.751700Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m83.8µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:48:59.751864Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m22.7µs [3mtime.idle[0m[2m=[0m168ns
+[2m2024-05-29T08:48:59.751868Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m26.6µs [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:48:59.751888Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m667ns [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:48:59.751892Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m4.00µs [3mtime.idle[0m[2m=[0m166ns
+[2m2024-05-29T08:48:59.843994Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m92.1ms [3mtime.idle[0m[2m=[0m23.1µs
+[2m2024-05-29T08:49:00.388752Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m425ms [3mtime.idle[0m[2m=[0m1.75µs [2m[3mdimensions[0m[2m=[0m"[33x2097152, 2x131072]"[0m
+[2m2024-05-29T08:49:00.388777Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m536ms [3mtime.idle[0m[2m=[0m12.2µs
+[2m2024-05-29T08:49:00.388796Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m637ms [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:00.400996Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Program
+[2m2024-05-29T08:49:00.401614Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: CPU
+[2m2024-05-29T08:49:00.404121Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryGlobalChip
+[2m2024-05-29T08:49:00.404633Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Poseidon2Wide 3
+[2m2024-05-29T08:49:00.415908Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: FriFold
+[2m2024-05-29T08:49:00.418832Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: RangeCheck
+[2m2024-05-29T08:49:00.423910Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 45655
+[2m2024-05-29T08:49:00.440187Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m15.3ms [3mtime.idle[0m[2m=[0m1.88µs
+[2m2024-05-29T08:49:00.478820Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m28.3ms [3mtime.idle[0m[2m=[0m1.46µs [2m[3mdimensions[0m[2m=[0m"[33x131072, 2x131072]"[0m
+[2m2024-05-29T08:49:00.478849Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m38.0ms [3mtime.idle[0m[2m=[0m416ns
+[2m2024-05-29T08:49:00.478861Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m54.0ms [3mtime.idle[0m[2m=[0m458ns
+[2m2024-05-29T08:49:00.490994Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Program
+[2m2024-05-29T08:49:00.491602Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: CPU
+[2m2024-05-29T08:49:00.494145Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryGlobalChip
+[2m2024-05-29T08:49:00.494639Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Poseidon2Wide 3
+[2m2024-05-29T08:49:00.505924Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: FriFold
+[2m2024-05-29T08:49:00.508699Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: RangeCheck
+[2m2024-05-29T08:49:00.517459Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 50842
+[2m2024-05-29T08:49:00.534758Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m15.7ms [3mtime.idle[0m[2m=[0m1.21µs
+[2m2024-05-29T08:49:00.572855Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m27.8ms [3mtime.idle[0m[2m=[0m1.71µs [2m[3mdimensions[0m[2m=[0m"[33x131072, 2x131072]"[0m
+[2m2024-05-29T08:49:00.572879Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m37.3ms [3mtime.idle[0m[2m=[0m750ns
+[2m2024-05-29T08:49:00.572885Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m53.8ms [3mtime.idle[0m[2m=[0m1.00µs
+[2m2024-05-29T08:49:00.584373Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Program
+[2m2024-05-29T08:49:00.584986Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: CPU
+[2m2024-05-29T08:49:00.587502Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryGlobalChip
+[2m2024-05-29T08:49:00.588038Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Poseidon2Wide 3
+[2m2024-05-29T08:49:00.599241Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: FriFold
+[2m2024-05-29T08:49:00.602017Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: RangeCheck
+[2m2024-05-29T08:49:00.605334Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 42911
+[2m2024-05-29T08:49:00.606448Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.42µs [3mtime.idle[0m[2m=[0m500ns
+[2m2024-05-29T08:49:00.606461Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m16.5µs [3mtime.idle[0m[2m=[0m709ns
+[2m2024-05-29T08:49:00.606519Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m20.3µs [3mtime.idle[0m[2m=[0m168ns
+[2m2024-05-29T08:49:00.606537Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m38.2µs [3mtime.idle[0m[2m=[0m208ns
+[2m2024-05-29T08:49:00.606553Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m959ns [3mtime.idle[0m[2m=[0m82.0ns
+[2m2024-05-29T08:49:00.606556Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m4.46µs [3mtime.idle[0m[2m=[0m166ns
+[2m2024-05-29T08:49:00.606788Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m87.8µs [3mtime.idle[0m[2m=[0m208ns
+[2m2024-05-29T08:49:00.606793Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m93.8µs [3mtime.idle[0m[2m=[0m166ns
+[2m2024-05-29T08:49:00.606916Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m10.1µs [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:49:00.606920Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m14.2µs [3mtime.idle[0m[2m=[0m166ns
+[2m2024-05-29T08:49:00.606932Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m667ns [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:49:00.606935Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m3.96µs [3mtime.idle[0m[2m=[0m124ns
+[2m2024-05-29T08:49:00.622487Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m15.5ms [3mtime.idle[0m[2m=[0m12.9µs
+[2m2024-05-29T08:49:00.749156Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m104ms [3mtime.idle[0m[2m=[0m1.33µs [2m[3mdimensions[0m[2m=[0m"[33x524288, 2x524288]"[0m
+[2m2024-05-29T08:49:00.749176Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m126ms [3mtime.idle[0m[2m=[0m999ns
+[2m2024-05-29T08:49:00.749182Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m142ms [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:49:00.760434Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Program
+[2m2024-05-29T08:49:00.760999Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: CPU
+[2m2024-05-29T08:49:00.763493Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: MemoryGlobalChip
+[2m2024-05-29T08:49:00.763981Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: Poseidon2Wide 9
+[2m2024-05-29T08:49:00.773806Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: FriFold
+[2m2024-05-29T08:49:00.778665Z[0m [34mDEBUG[0m [1minitialize prover[0m: verifying constraints for chip: RangeCheck
+[2m2024-05-29T08:49:00.781649Z[0m [32m INFO[0m [1minitialize prover[0m: recursion program size: 42440
+[2m2024-05-29T08:49:00.783567Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.67µs [3mtime.idle[0m[2m=[0m500ns
+[2m2024-05-29T08:49:00.783581Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m16.2µs [3mtime.idle[0m[2m=[0m501ns
+[2m2024-05-29T08:49:00.783634Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m19.0µs [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:49:00.783652Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m36.8µs [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:49:00.783675Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m958ns [3mtime.idle[0m[2m=[0m126ns
+[2m2024-05-29T08:49:00.783678Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m4.38µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:00.783915Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m76.3µs [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:49:00.783919Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m80.4µs [3mtime.idle[0m[2m=[0m166ns
+[2m2024-05-29T08:49:00.783988Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m917ns [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:49:00.783991Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m4.12µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:00.799098Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m15.1ms [3mtime.idle[0m[2m=[0m793ns
+[2m2024-05-29T08:49:01.760910Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m948ms [3mtime.idle[0m[2m=[0m1.33µs [2m[3mdimensions[0m[2m=[0m"[33x262144, 2x262144]"[0m
+[2m2024-05-29T08:49:01.760946Z[0m [34mDEBUG[0m [1minitialize prover[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m961ms [3mtime.idle[0m[2m=[0m13.9µs
+[2m2024-05-29T08:49:01.760955Z[0m [32m INFO[0m [1minitialize prover[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m977ms [3mtime.idle[0m[2m=[0m124ns
+[2m2024-05-29T08:49:01.760959Z[0m [32m INFO[0m [1minitialize prover[0m: close [3mtime.busy[0m[2m=[0m3.03s [3mtime.idle[0m[2m=[0m19.8µs
+[2m2024-05-29T08:49:01.851372Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m89.2ms [3mtime.idle[0m[2m=[0m875ns
+[2m2024-05-29T08:49:01.886524Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m26.5ms [3mtime.idle[0m[2m=[0m2.04µs [2m[3mdimensions[0m[2m=[0m"[11x131072, 6x65536, 37x32768]"[0m
+[2m2024-05-29T08:49:01.886558Z[0m [34mDEBUG[0m [1msetup[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m34.7ms [3mtime.idle[0m[2m=[0m833ns
+[2m2024-05-29T08:49:01.886568Z[0m [32m INFO[0m [1msetup[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m124ms [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:49:01.886723Z[0m [32m INFO[0m [1msetup[0m: close [3mtime.busy[0m[2m=[0m126ms [3mtime.idle[0m[2m=[0m584ns
+[2m2024-05-29T08:49:01.887727Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m46.8µs [3mtime.idle[0m[2m=[0m209ns
+[2m2024-05-29T08:49:01.887741Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m61.0µs [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:49:01.887778Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.83µs [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:49:01.887800Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m24.3µs [3mtime.idle[0m[2m=[0m292ns
+[2m2024-05-29T08:49:01.887861Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m15.7µs [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:49:01.887869Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m23.7µs [3mtime.idle[0m[2m=[0m124ns
+[2m2024-05-29T08:49:01.888024Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m46.5µs [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:49:01.888028Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m51.4µs [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:49:01.891207Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m957µs [3mtime.idle[0m[2m=[0m126ns
+[2m2024-05-29T08:49:01.891220Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m970µs [3mtime.idle[0m[2m=[0m126ns
+[2m2024-05-29T08:49:01.894520Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m723µs [3mtime.idle[0m[2m=[0m333ns
+[2m2024-05-29T08:49:01.894544Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m748µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:01.896722Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m437µs [3mtime.idle[0m[2m=[0m124ns
+[2m2024-05-29T08:49:01.896734Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m449µs [3mtime.idle[0m[2m=[0m584ns
+[2m2024-05-29T08:49:01.899464Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m669µs [3mtime.idle[0m[2m=[0m124ns
+[2m2024-05-29T08:49:01.899476Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m681µs [3mtime.idle[0m[2m=[0m166ns
+[2m2024-05-29T08:49:01.903382Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m940µs [3mtime.idle[0m[2m=[0m375ns
+[2m2024-05-29T08:49:01.903408Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m968µs [3mtime.idle[0m[2m=[0m249ns
+[2m2024-05-29T08:49:01.907498Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.05ms [3mtime.idle[0m[2m=[0m458ns
+[2m2024-05-29T08:49:01.907518Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m1.07ms [3mtime.idle[0m[2m=[0m251ns
+[2m2024-05-29T08:49:01.911169Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m674µs [3mtime.idle[0m[2m=[0m291ns
+[2m2024-05-29T08:49:01.911194Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m700µs [3mtime.idle[0m[2m=[0m417ns
+[2m2024-05-29T08:49:01.915065Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m904µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:01.915080Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m920µs [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:49:01.921710Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.04ms [3mtime.idle[0m[2m=[0m416ns
+[2m2024-05-29T08:49:01.921742Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m2.07ms [3mtime.idle[0m[2m=[0m958ns
+[2m2024-05-29T08:49:01.930161Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.19ms [3mtime.idle[0m[2m=[0m251ns
+[2m2024-05-29T08:49:01.930181Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m2.21ms [3mtime.idle[0m[2m=[0m625ns
+[2m2024-05-29T08:49:01.933266Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m102µs [3mtime.idle[0m[2m=[0m209ns
+[2m2024-05-29T08:49:01.933276Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m113µs [3mtime.idle[0m[2m=[0m458ns
+[2m2024-05-29T08:49:01.936891Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.28ms [3mtime.idle[0m[2m=[0m249ns
+[2m2024-05-29T08:49:01.936905Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m1.29ms [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:01.938268Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.75µs [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:49:01.938276Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m13.1µs [3mtime.idle[0m[2m=[0m291ns
+[2m2024-05-29T08:49:01.938290Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m2.29µs [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:49:01.938294Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m5.96µs [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:49:01.938341Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m16.7µs [3mtime.idle[0m[2m=[0m126ns
+[2m2024-05-29T08:49:01.938347Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m22.3µs [3mtime.idle[0m[2m=[0m126ns
+[2m2024-05-29T08:49:01.938402Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m7.88µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:01.938407Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m13.1µs [3mtime.idle[0m[2m=[0m166ns
+[2m2024-05-29T08:49:01.938448Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m8.17µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:01.938451Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m12.1µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:01.938478Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m5.04µs [3mtime.idle[0m[2m=[0m126ns
+[2m2024-05-29T08:49:01.938482Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m8.38µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:01.938502Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m4.46µs [3mtime.idle[0m[2m=[0m82.0ns
+[2m2024-05-29T08:49:01.938505Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m7.75µs [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:49:01.938513Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m834ns [3mtime.idle[0m[2m=[0m124ns
+[2m2024-05-29T08:49:01.938516Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m4.08µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:01.938521Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m667ns [3mtime.idle[0m[2m=[0m83.0ns
+[2m2024-05-29T08:49:01.938524Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m3.67µs [3mtime.idle[0m[2m=[0m168ns
+[2m2024-05-29T08:49:01.938535Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m3.29µs [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:49:01.938538Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m6.33µs [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:01.938546Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m:[1mevaluate constraints symbolically[0m: close [3mtime.busy[0m[2m=[0m1.79µs [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:49:01.938549Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m:[1minfer constraint degree[0m: close [3mtime.busy[0m[2m=[0m4.92µs [3mtime.idle[0m[2m=[0m84.0ns
+[2m2024-05-29T08:49:01.938552Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mconstruct RiscvAir machine[0m: close [3mtime.busy[0m[2m=[0m51.0ms [3mtime.idle[0m[2m=[0m124ns
+[2m2024-05-29T08:49:02.028670Z[0m [34mDEBUG[0m [1mprove_core[0m:[1msetup machine[0m:[1mgenerate preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m90.0ms [3mtime.idle[0m[2m=[0m1.12µs
+[2m2024-05-29T08:49:02.063671Z[0m [34mDEBUG[0m [1mprove_core[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m26.8ms [3mtime.idle[0m[2m=[0m1.29µs [2m[3mdimensions[0m[2m=[0m"[11x131072, 6x65536, 37x32768]"[0m
+[2m2024-05-29T08:49:02.063694Z[0m [34mDEBUG[0m [1mprove_core[0m:[1msetup machine[0m:[1mcommit to preprocessed traces[0m: close [3mtime.busy[0m[2m=[0m34.6ms [3mtime.idle[0m[2m=[0m1.08µs
+[2m2024-05-29T08:49:02.063700Z[0m [32m INFO[0m [1mprove_core[0m:[1msetup machine[0m: close [3mtime.busy[0m[2m=[0m125ms [3mtime.idle[0m[2m=[0m167ns
+[2m2024-05-29T08:49:02.063709Z[0m [32m INFO[0m [1mprove_core[0m:[1mruntime.state[0m: loading memory image
+[2m2024-05-29T08:49:02.064065Z[0m [32m INFO[0m [1mprove_core[0m:[1mruntime.state[0m: starting execution
+[2m2024-05-29T08:49:02.064070Z[0m [32m INFO[0m [1mprove_core[0m:[1mruntime.state[0m: clk = 0 pc = 0x201c1c    
+[2m2024-05-29T08:49:02.066753Z[0m [32m INFO[0m [1mprove_core[0m:[1mruntime.state[0m: finished execution clk = 22356 pc = 0x0
+[2m2024-05-29T08:49:02.067099Z[0m [32m INFO[0m [1mprove_core[0m:[1mruntime.state[0m: close [3mtime.busy[0m[2m=[0m3.39ms [3mtime.idle[0m[2m=[0m791ns
+[2m2024-05-29T08:49:02.067261Z[0m [32m INFO[0m [1mprove_core[0m:[1mruntime.trace[0m: loading memory image
+[2m2024-05-29T08:49:02.067610Z[0m [32m INFO[0m [1mprove_core[0m:[1mruntime.trace[0m: starting execution
+[2m2024-05-29T08:49:02.067614Z[0m [32m INFO[0m [1mprove_core[0m:[1mruntime.trace[0m: clk = 0 pc = 0x201c1c    
+[2m2024-05-29T08:49:02.071450Z[0m [32m INFO[0m [1mprove_core[0m:[1mruntime.trace[0m: finished execution clk = 22356 pc = 0x0
+[2m2024-05-29T08:49:02.071540Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mruntime.trace[0m: close [3mtime.busy[0m[2m=[0m4.28ms [3mtime.idle[0m[2m=[0m834ns
+[2m2024-05-29T08:49:02.078857Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mshard[0m:[1mcollect record events from chips[0m:[1mgenerate cpu dependencies[0m: close [3mtime.busy[0m[2m=[0m7.21ms [3mtime.idle[0m[2m=[0m418ns
+[2m2024-05-29T08:49:02.094701Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mshard[0m:[1mcollect record events from chips[0m: close [3mtime.busy[0m[2m=[0m23.1ms [3mtime.idle[0m[2m=[0m375ns
+[2m2024-05-29T08:49:02.094725Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: shift_right_events = 1700    
+[2m2024-05-29T08:49:02.094728Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: bitwise_events = 1721    
+[2m2024-05-29T08:49:02.094730Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: secp256k1_double_events = 0    
+[2m2024-05-29T08:49:02.094732Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: mul_events = 1004    
+[2m2024-05-29T08:49:02.094734Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: ed_add_events = 0    
+[2m2024-05-29T08:49:02.094737Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: bls12381_double_events = 0    
+[2m2024-05-29T08:49:02.094739Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: secp256k1_add_events = 0    
+[2m2024-05-29T08:49:02.094741Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: bn254_add_events = 0    
+[2m2024-05-29T08:49:02.094743Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: add_events = 12968    
+[2m2024-05-29T08:49:02.094745Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: sub_events = 523    
+[2m2024-05-29T08:49:02.094747Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: keccak_permute_events = 0    
+[2m2024-05-29T08:49:02.094749Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: sha_extend_events = 0    
+[2m2024-05-29T08:49:02.094751Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: lt_events = 4810    
+[2m2024-05-29T08:49:02.094753Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: bls12381_add_events = 0    
+[2m2024-05-29T08:49:02.094755Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: bls12381_decompress_events = 0    
+[2m2024-05-29T08:49:02.094757Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: sha_compress_events = 0    
+[2m2024-05-29T08:49:02.094776Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: bn254_double_events = 0    
+[2m2024-05-29T08:49:02.094778Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: divrem_events = 1    
+[2m2024-05-29T08:49:02.094780Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: k256_decompress_events = 0    
+[2m2024-05-29T08:49:02.094782Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: blake3_compress_inner_events = 0    
+[2m2024-05-29T08:49:02.094784Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: uint256_mul_events = 0    
+[2m2024-05-29T08:49:02.094786Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: ed_decompress_events = 0    
+[2m2024-05-29T08:49:02.094788Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: shift_left_events = 2213    
+[2m2024-05-29T08:49:02.094790Z[0m [32m INFO[0m [1mprove_core[0m:[1mshard[0m: cpu_events = 22356    
+[2m2024-05-29T08:49:02.095509Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mshard[0m: close [3mtime.busy[0m[2m=[0m23.9ms [3mtime.idle[0m[2m=[0m708ns
+[2m2024-05-29T08:49:02.095654Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m32.4µs [3mtime.idle[0m[2m=[0m792ns [2m[3mchip_name[0m[2m=[0mMemoryInit[0m
+[2m2024-05-29T08:49:02.095669Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m11.5µs [3mtime.idle[0m[2m=[0m7.87µs [2m[3mchip_name[0m[2m=[0mDivRem[0m
+[2m2024-05-29T08:49:02.096198Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m177µs [3mtime.idle[0m[2m=[0m625ns [2m[3mchip_name[0m[2m=[0mMemoryProgram[0m
+[2m2024-05-29T08:49:02.096242Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m618µs [3mtime.idle[0m[2m=[0m542ns [2m[3mchip_name[0m[2m=[0mBitwise[0m
+[2m2024-05-29T08:49:02.096786Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m499µs [3mtime.idle[0m[2m=[0m667ns [2m[3mchip_name[0m[2m=[0mProgram[0m
+[2m2024-05-29T08:49:02.096815Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m1.15ms [3mtime.idle[0m[2m=[0m416ns [2m[3mchip_name[0m[2m=[0mMemoryFinalize[0m
+[2m2024-05-29T08:49:02.096894Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m1.27ms [3mtime.idle[0m[2m=[0m624ns [2m[3mchip_name[0m[2m=[0mShiftRight[0m
+[2m2024-05-29T08:49:02.097252Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m1.59ms [3mtime.idle[0m[2m=[0m1.12µs [2m[3mchip_name[0m[2m=[0mShiftLeft[0m
+[2m2024-05-29T08:49:02.097917Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m1.88ms [3mtime.idle[0m[2m=[0m1.58µs [2m[3mchip_name[0m[2m=[0mLt[0m
+[2m2024-05-29T08:49:02.098468Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m2.13ms [3mtime.idle[0m[2m=[0m792ns [2m[3mchip_name[0m[2m=[0mAddSub[0m
+[2m2024-05-29T08:49:02.187770Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m91.7ms [3mtime.idle[0m[2m=[0m708ns [2m[3mchip_name[0m[2m=[0mByte[0m
+[2m2024-05-29T08:49:02.188255Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m92.5ms [3mtime.idle[0m[2m=[0m541ns [2m[3mchip_name[0m[2m=[0mMul[0m
+[2m2024-05-29T08:49:02.200806Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m105ms [3mtime.idle[0m[2m=[0m958ns [2m[3mchip_name[0m[2m=[0mCPU[0m
+[2m2024-05-29T08:49:02.287996Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m59.9ms [3mtime.idle[0m[2m=[0m1.62µs [2m[3mdimensions[0m[2m=[0m"[10x131072, 113x65536, 8x65536, 3x65536, 2x32768, 18x32768, 35x16384, 43x8192, 16x4096, 69x4096, 8x4096, 38x2048, 94x32]"[0m
+[2m2024-05-29T08:49:02.288031Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m:[1mgenerate traces for shard[0m: close [3mtime.busy[0m[2m=[0m105ms [3mtime.idle[0m[2m=[0m87.2ms
+[2m2024-05-29T08:49:02.289442Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m:[1mcommit to shard[0m: close [3mtime.busy[0m[2m=[0m194ms [3mtime.idle[0m[2m=[0m166ns
+[2m2024-05-29T08:49:02.289450Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit[0m:[1mcommit to all shards[0m: close [3mtime.busy[0m[2m=[0m194ms [3mtime.idle[0m[2m=[0m249ns
+[2m2024-05-29T08:49:02.289455Z[0m [32m INFO[0m [1mprove_core[0m:[1mcommit[0m: close [3mtime.busy[0m[2m=[0m194ms [3mtime.idle[0m[2m=[0m666ns
+[2m2024-05-29T08:49:02.290506Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m6.83µs [3mtime.idle[0m[2m=[0m542ns [2m[3mchip_name[0m[2m=[0mDivRem[0m
+[2m2024-05-29T08:49:02.290578Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m57.1µs [3mtime.idle[0m[2m=[0m2.00µs [2m[3mchip_name[0m[2m=[0mMemoryInit[0m
+[2m2024-05-29T08:49:02.291093Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m593µs [3mtime.idle[0m[2m=[0m917ns [2m[3mchip_name[0m[2m=[0mBitwise[0m
+[2m2024-05-29T08:49:02.291202Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m697µs [3mtime.idle[0m[2m=[0m750ns [2m[3mchip_name[0m[2m=[0mShiftLeft[0m
+[2m2024-05-29T08:49:02.291369Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m941µs [3mtime.idle[0m[2m=[0m375ns [2m[3mchip_name[0m[2m=[0mProgram[0m
+[2m2024-05-29T08:49:02.291603Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m190µs [3mtime.idle[0m[2m=[0m334ns [2m[3mchip_name[0m[2m=[0mMemoryProgram[0m
+[2m2024-05-29T08:49:02.291775Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m1.27ms [3mtime.idle[0m[2m=[0m709ns [2m[3mchip_name[0m[2m=[0mShiftRight[0m
+[2m2024-05-29T08:49:02.292011Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m1.39ms [3mtime.idle[0m[2m=[0m375ns [2m[3mchip_name[0m[2m=[0mMemoryFinalize[0m
+[2m2024-05-29T08:49:02.292275Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m1.75ms [3mtime.idle[0m[2m=[0m209ns [2m[3mchip_name[0m[2m=[0mMul[0m
+[2m2024-05-29T08:49:02.292662Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m1.58ms [3mtime.idle[0m[2m=[0m375ns [2m[3mchip_name[0m[2m=[0mLt[0m
+[2m2024-05-29T08:49:02.293437Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m2.92ms [3mtime.idle[0m[2m=[0m1.79µs [2m[3mchip_name[0m[2m=[0mAddSub[0m
+[2m2024-05-29T08:49:02.381846Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m90.4ms [3mtime.idle[0m[2m=[0m374ns [2m[3mchip_name[0m[2m=[0mByte[0m
+[2m2024-05-29T08:49:02.396669Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m:[1mgenerate trace for chip[0m: close [3mtime.busy[0m[2m=[0m106ms [3mtime.idle[0m[2m=[0m1.04µs [2m[3mchip_name[0m[2m=[0mCPU[0m
+[2m2024-05-29T08:49:02.484682Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m62.3ms [3mtime.idle[0m[2m=[0m1.25µs [2m[3mdimensions[0m[2m=[0m"[10x131072, 113x65536, 8x65536, 3x65536, 2x32768, 18x32768, 35x16384, 43x8192, 16x4096, 69x4096, 8x4096, 38x2048, 94x32]"[0m
+[2m2024-05-29T08:49:02.484707Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate traces for shard[0m: close [3mtime.busy[0m[2m=[0m106ms [3mtime.idle[0m[2m=[0m88.0ms
+[2m2024-05-29T08:49:02.573736Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mgenerate permutation traces[0m: close [3mtime.busy[0m[2m=[0m89.0ms [3mtime.idle[0m[2m=[0m1.29µs
+[2m2024-05-29T08:49:02.573776Z[0m [34mDEBUG[0m [1mprove_core[0m: Byte            | Main Cols = 10    | Perm Cols = 24    | Rows = 65536 | Cells = 2228224   
+[2m2024-05-29T08:49:02.573788Z[0m [34mDEBUG[0m [1mprove_core[0m: CPU             | Main Cols = 113   | Perm Cols = 68    | Rows = 32768 | Cells = 5931008   
+[2m2024-05-29T08:49:02.573793Z[0m [34mDEBUG[0m [1mprove_core[0m: MemoryFinalize  | Main Cols = 8     | Perm Cols = 8     | Rows = 32768 | Cells = 524288    
+[2m2024-05-29T08:49:02.573795Z[0m [34mDEBUG[0m [1mprove_core[0m: MemoryProgram   | Main Cols = 3     | Perm Cols = 8     | Rows = 32768 | Cells = 360448    
+[2m2024-05-29T08:49:02.573797Z[0m [34mDEBUG[0m [1mprove_core[0m: Program         | Main Cols = 2     | Perm Cols = 8     | Rows = 16384 | Cells = 163840    
+[2m2024-05-29T08:49:02.573799Z[0m [34mDEBUG[0m [1mprove_core[0m: AddSub          | Main Cols = 18    | Perm Cols = 20    | Rows = 16384 | Cells = 622592    
+[2m2024-05-29T08:49:02.573802Z[0m [34mDEBUG[0m [1mprove_core[0m: Lt              | Main Cols = 35    | Perm Cols = 12    | Rows = 8192  | Cells = 385024    
+[2m2024-05-29T08:49:02.573804Z[0m [34mDEBUG[0m [1mprove_core[0m: ShiftLeft       | Main Cols = 43    | Perm Cols = 16    | Rows = 4096  | Cells = 241664    
+[2m2024-05-29T08:49:02.573807Z[0m [34mDEBUG[0m [1mprove_core[0m: Bitwise         | Main Cols = 16    | Perm Cols = 16    | Rows = 2048  | Cells = 65536     
+[2m2024-05-29T08:49:02.573809Z[0m [34mDEBUG[0m [1mprove_core[0m: ShiftRight      | Main Cols = 69    | Perm Cols = 56    | Rows = 2048  | Cells = 256000    
+[2m2024-05-29T08:49:02.573810Z[0m [34mDEBUG[0m [1mprove_core[0m: MemoryInit      | Main Cols = 8     | Perm Cols = 8     | Rows = 2048  | Cells = 32768     
+[2m2024-05-29T08:49:02.573812Z[0m [34mDEBUG[0m [1mprove_core[0m: Mul             | Main Cols = 38    | Perm Cols = 36    | Rows = 1024  | Cells = 75776     
+[2m2024-05-29T08:49:02.573824Z[0m [34mDEBUG[0m [1mprove_core[0m: DivRem          | Main Cols = 94    | Perm Cols = 36    | Rows = 16    | Cells = 2080      
+[2m2024-05-29T08:49:02.581860Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mflatten permutation traces and collect domains[0m: close [3mtime.busy[0m[2m=[0m8.03ms [3mtime.idle[0m[2m=[0m750ns
+[2m2024-05-29T08:49:02.661379Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit to permutation traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m56.4ms [3mtime.idle[0m[2m=[0m1.33µs [2m[3mdimensions[0m[2m=[0m"[24x131072, 68x65536, 8x65536, 8x65536, 8x32768, 20x32768, 12x16384, 16x8192, 16x4096, 56x4096, 8x4096, 36x2048, 36x32]"[0m
+[2m2024-05-29T08:49:02.661411Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit to permutation traces[0m: close [3mtime.busy[0m[2m=[0m79.5ms [3mtime.idle[0m[2m=[0m1.00µs
+[2m2024-05-29T08:49:02.661802Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m331µs [3mtime.idle[0m[2m=[0m1.92µs
+[2m2024-05-29T08:49:02.663170Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m1.70ms [3mtime.idle[0m[2m=[0m1.12µs
+[2m2024-05-29T08:49:02.665447Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m3.97ms [3mtime.idle[0m[2m=[0m1.96µs
+[2m2024-05-29T08:49:02.669851Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m8.38ms [3mtime.idle[0m[2m=[0m1.83µs
+[2m2024-05-29T08:49:02.669886Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m8.42ms [3mtime.idle[0m[2m=[0m833ns
+[2m2024-05-29T08:49:02.669900Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m8.44ms [3mtime.idle[0m[2m=[0m666ns
+[2m2024-05-29T08:49:02.669956Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m8.50ms [3mtime.idle[0m[2m=[0m291ns
+[2m2024-05-29T08:49:02.670011Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m8.55ms [3mtime.idle[0m[2m=[0m1.17µs
+[2m2024-05-29T08:49:02.670086Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m8.62ms [3mtime.idle[0m[2m=[0m458ns
+[2m2024-05-29T08:49:02.675391Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m13.9ms [3mtime.idle[0m[2m=[0m2.12µs
+[2m2024-05-29T08:49:02.675624Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m13.7ms [3mtime.idle[0m[2m=[0m500ns
+[2m2024-05-29T08:49:02.696719Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m35.3ms [3mtime.idle[0m[2m=[0m708ns
+[2m2024-05-29T08:49:02.703657Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m:[1mcompute quotient values for domain[0m: close [3mtime.busy[0m[2m=[0m42.2ms [3mtime.idle[0m[2m=[0m1.00µs
+[2m2024-05-29T08:49:02.754399Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit to quotient traces[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m24.4ms [3mtime.idle[0m[2m=[0m874ns [2m[3mdimensions[0m[2m=[0m"[4x131072, 4x131072, 4x65536, 4x65536, 4x65536, 4x65536, 4x65536, 4x65536, 4x32768, 4x32768, 4x32768, 4x32768, 4x16384, 4x16384, 4x8192, 4x8192, 4x4096, 4x4096, 4x4096, 4x4096, 4x4096, 4x4096, 4x2048, 4x2048, 4x32, 4x32]"[0m
+[2m2024-05-29T08:49:02.754431Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcommit to quotient traces[0m: close [3mtime.busy[0m[2m=[0m47.4ms [3mtime.idle[0m[2m=[0m624ns
+[2m2024-05-29T08:49:02.754440Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute preprocessed opening points[0m: close [3mtime.busy[0m[2m=[0m1.17µs [3mtime.idle[0m[2m=[0m251ns
+[2m2024-05-29T08:49:02.754445Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute trace opening points[0m: close [3mtime.busy[0m[2m=[0m833ns [3mtime.idle[0m[2m=[0m125ns
+[2m2024-05-29T08:49:02.929069Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m6.55ms [3mtime.idle[0m[2m=[0m1.46µs [2m[3mdimensions[0m[2m=[0m"[8x65536]"[0m
+[2m2024-05-29T08:49:02.934686Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m3.39ms [3mtime.idle[0m[2m=[0m875ns [2m[3mdimensions[0m[2m=[0m"[8x32768]"[0m
+[2m2024-05-29T08:49:02.938055Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m2.20ms [3mtime.idle[0m[2m=[0m625ns [2m[3mdimensions[0m[2m=[0m"[8x16384]"[0m
+[2m2024-05-29T08:49:02.940079Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m1.27ms [3mtime.idle[0m[2m=[0m375ns [2m[3mdimensions[0m[2m=[0m"[8x8192]"[0m
+[2m2024-05-29T08:49:02.942722Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m797µs [3mtime.idle[0m[2m=[0m582ns [2m[3mdimensions[0m[2m=[0m"[8x4096]"[0m
+[2m2024-05-29T08:49:02.943587Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m522µs [3mtime.idle[0m[2m=[0m249ns [2m[3mdimensions[0m[2m=[0m"[8x2048]"[0m
+[2m2024-05-29T08:49:02.944138Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m354µs [3mtime.idle[0m[2m=[0m208ns [2m[3mdimensions[0m[2m=[0m"[8x1024]"[0m
+[2m2024-05-29T08:49:02.944441Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m214µs [3mtime.idle[0m[2m=[0m208ns [2m[3mdimensions[0m[2m=[0m"[8x512]"[0m
+[2m2024-05-29T08:49:02.944803Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m218µs [3mtime.idle[0m[2m=[0m292ns [2m[3mdimensions[0m[2m=[0m"[8x256]"[0m
+[2m2024-05-29T08:49:02.945027Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m134µs [3mtime.idle[0m[2m=[0m250ns [2m[3mdimensions[0m[2m=[0m"[8x128]"[0m
+[2m2024-05-29T08:49:02.945159Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m91.5µs [3mtime.idle[0m[2m=[0m167ns [2m[3mdimensions[0m[2m=[0m"[8x64]"[0m
+[2m2024-05-29T08:49:02.945288Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m90.5µs [3mtime.idle[0m[2m=[0m168ns [2m[3mdimensions[0m[2m=[0m"[8x32]"[0m
+[2m2024-05-29T08:49:02.945411Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m58.0µs [3mtime.idle[0m[2m=[0m292ns [2m[3mdimensions[0m[2m=[0m"[8x16]"[0m
+[2m2024-05-29T08:49:02.945490Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m19.2µs [3mtime.idle[0m[2m=[0m292ns [2m[3mdimensions[0m[2m=[0m"[8x8]"[0m
+[2m2024-05-29T08:49:02.945531Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m4.71µs [3mtime.idle[0m[2m=[0m209ns [2m[3mdimensions[0m[2m=[0m"[8x4]"[0m
+[2m2024-05-29T08:49:02.945558Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m:[1mbuild merkle tree[0m: close [3mtime.busy[0m[2m=[0m3.25µs [3mtime.idle[0m[2m=[0m83.0ns [2m[3mdimensions[0m[2m=[0m"[8x2]"[0m
+[2m2024-05-29T08:49:02.954047Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mopen multi batches[0m: close [3mtime.busy[0m[2m=[0m200ms [3mtime.idle[0m[2m=[0m708ns
+[2m2024-05-29T08:49:02.954719Z[0m [34mDEBUG[0m [1mprove_core[0m:[1mcompute quotient values[0m: close [3mtime.busy[0m[2m=[0m42.3ms [3mtime.idle[0m[2m=[0m251ms
+[2m2024-05-29T08:49:02.958482Z[0m [32m INFO[0m [1mprove_core[0m: summary: cycles=22356, e2e=667, khz=33.52, proofSize=1.09 MiB
+[2m2024-05-29T08:49:02.960853Z[0m [32m INFO[0m [1mprove_core[0m: close [3mtime.busy[0m[2m=[0m1.07s [3mtime.idle[0m[2m=[0m833ns
+generated proof
+[2m2024-05-29T08:49:02.961272Z[0m [34mDEBUG[0m [1mverify[0m:[1mobserve challenges for all shards[0m: close [3mtime.busy[0m[2m=[0m5.71µs [3mtime.idle[0m[2m=[0m501ns
+[2m2024-05-29T08:49:03.039520Z[0m [34mDEBUG[0m [1mverify[0m:[1mverify shard proofs[0m:[1mverifying shard[0m: close [3mtime.busy[0m[2m=[0m78.2ms [3mtime.idle[0m[2m=[0m209ns [2m[3msegment[0m[2m=[0m0[0m
+[2m2024-05-29T08:49:03.039545Z[0m [34mDEBUG[0m [1mverify[0m:[1mverify shard proofs[0m: close [3mtime.busy[0m[2m=[0m78.3ms [3mtime.idle[0m[2m=[0m541ns
+[2m2024-05-29T08:49:03.039552Z[0m [34mDEBUG[0m [1mverify[0m:[1mverify cumulative sum is 0[0m: close [3mtime.busy[0m[2m=[0m458ns [3mtime.idle[0m[2m=[0m334ns
+[2m2024-05-29T08:49:03.039555Z[0m [32m INFO[0m [1mverify[0m: close [3mtime.busy[0m[2m=[0m78.3ms [3mtime.idle[0m[2m=[0m4.21µs
+succesfully generated and verified proof for the program!
